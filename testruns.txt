@@ -1,0 +1,56 @@
+Anagrams found for the word 'ship':
+1. hips
+2. phis
+3. pish
+4. ship
+Anagrams found for the word 'computer':
+1. computer
+Anagrams found for the word 'tired':
+1. diter
+2. tired
+3. tried
+Anagrams found for the word 'laptop':
+1. applot
+2. laptop
+Anagrams found for the word 'application':
+1. application
+Anagrams found for the word 'musical':
+1. musical
+No anagrams found for the word 'bannana' in the file.
+No anagrams found for the word 'racecar' in the file.
+Anagrams found for the word 'racer':
+1. carer
+2. crare
+3. racer
+Anagrams found for the word 'career':
+1. career
+2. carree
+Anagrams found for the word 'tinsel':
+1. enlist
+2. inlets
+3. listen
+4. silent
+5. slinte
+6. tinsel
+Anagrams found for the word 'spear':
+1. apers
+2. apres
+3. asper
+4. pares
+5. parse
+6. pears
+7. prase
+8. presa
+9. rapes
+10. reaps
+11. repas
+12. spaer
+13. spare
+14. spear
+Anagrams found for the word 'stop':
+1. opts
+2. post
+3. pots
+4. spot
+5. stop
+6. tops

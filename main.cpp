@@ -1,3 +1,6 @@
+// Dilara Sen, sen1@kenyon.edu
+// August 31, 2024
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -53,16 +56,33 @@ int main() {
   // Find anagrams in the file
   vector<string> anagrams = findAnagrams(word, filename);
 
-  // Output the results
+  // Open the text file to save the results and append to it
+  ofstream outputFile("testruns.txt", ios::app);
+
+  // Check if the text file opened successfully
+  if (!outputFile.is_open()) {
+    cerr << "Error: Could not open the output file testruns.txt" << endl;
+    return 1;
+  }
+
+  // Output the results to the console and to the testruns file
   if (anagrams.empty()) {
-    cout << "No anagrams found for the word '" << word << "' in the file."
-         << endl;
+    cout << "No anagrams found for the word '" << word << "' in the file." << endl;
+    outputFile << "No anagrams found for the word '" << word << "' in the file." << endl;
   } else {
     cout << "Anagrams found for the word '" << word << "':" << endl;
+    outputFile << "Anagrams found for the word '" << word << "':" << endl;
+
+    int count = 1; // Initialize counter for number of anagrams found
+
     for (const string &anagram : anagrams) {
-      cout << anagram << endl;
+      cout << count << ". " << anagram << endl; // Write to console
+      outputFile << count << ". " << anagram << endl; // Write to output
+      count++; // Incrementor for number
     }
   }
+
+  outputFile.close(); // Close the output file
 
   return 0;
 }
